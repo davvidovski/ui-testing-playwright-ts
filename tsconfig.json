@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "outDir": "./dist",
+      "types": ["@types/node", "@playwright/test"],
+      "resolveJsonModule": true  // Enable JSON imports
+    },
+    "include": [
+      "tests/**/*.ts",
+      "playwright.config.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

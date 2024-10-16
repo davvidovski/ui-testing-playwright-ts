@@ -1,0 +1,19 @@
+{
+    "agreeAndContinueButton": "//*[@id='onetrust-accept-btn-handler']",
+    "telerikLogo": "//*[@id='js-tlrk-nav']/section/div/figure/a[2]",
+    "demosLink": "//a[@href='/support/demos' and @class='TK-Menu-Item-Link' and text()='Demos']",
+    "servicesLink": "//nav//a[@href='/services']",
+    "blogsLink": "//nav//a[@href='/blogs']",
+    "docsAndSupportLink": "//a[@href='/support' and @class='TK-Menu-Item-Link' and contains(text(), 'Docs & Support')]",
+    "pricingLink": "//nav//a[@href='/purchase.aspx' and text()='Pricing']",
+    "shoppingCartLink": "//*[@id='js-tlrk-nav-drawer']/ul[2]/li[2]/a",
+    "loginLink": "//nav//a[@href='/account/']",
+    "contactUsLink": "//*[@id='js-tlrk-nav-not-auth-container']/a",
+    "freeTrialLink": "//*[@id='js-tlrk-nav-drawer']/ul[2]/li[5]/a",
+    "searchInput": "(//a[@href='/search' and @title='Search' and contains(@class, 'js-tlrk-nav-search-link')])[1]", 
+    "searchResults": "//div[@class='search-results']",
+    "navLinks": "//nav//a",
+    "footerLinks": "//footer//a",
+    "searchSuggestions": "//div[@class='search-suggestions']",
+    "seoMetaTag": "//meta[@name='description']"
+  }
